@@ -11,7 +11,7 @@ linkedin_username:  coolbrg
 
 permalink: /notes/:title/
 
-google_analytics: # your google analytics id
+google_analytics: G-5QN28JKBGX  # add your google analytics id
 
 # Build settings
 markdown: kramdown
