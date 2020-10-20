@@ -1,11 +1,15 @@
 title: Dev Notes
 email: budhram.gurung01@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Note taking platform for developers
+  Build your own note taking platform
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+author: BRG
 twitter_username: coolbrg
 github_username:  coolbrg
+linkedin_username:  coolbrg
+
+permalink: /notes/:title/
 
 google_analytics: # your google analytics id
 

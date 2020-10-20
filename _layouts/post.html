@@ -6,12 +6,11 @@ layout: page
   <!-- Wrapper Start -->
   <section id="intro">
     <div class="container">
-      <div class="row mx-0">
-        <div class="block">
+      <div class="row">
+        <div class="col-md-12">
           <h1>{{ page.title }}</h1>
           <div class="post-info-wrapper">
-            <p class="italic">By
-              <span class="bold">{{ page.author }}</span> on
+            <p class="italic">Created at
               <span class="bold">{{ page.date | date: "%b %-d, %Y" }}</span>
               {% include read-time.html
                           content=content
@@ -30,7 +29,7 @@ layout: page
 
       <div class="row mx-0">
         <p class="center-text py-3">
-          <a href="{{ site.baseurl }}/blogs">Back to blogs list</a>
+          <a href="{{ site.baseurl }}/notes">Back to all notes</a>
         </p>
       </div>
     </div>

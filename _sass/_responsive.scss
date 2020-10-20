@@ -8,8 +8,13 @@
 
 // standard mobile size
 @media (max-width: 500px) {
+  footer {
+    .row .col-md-4:first-child {
+      margin-bottom: 1rem;
+    }
+  }
 }
 
 // small size mobile
-@media(max-width: 360px) {
+@media(max-width: 400px) {
 }
